@@ -8,17 +8,17 @@ package main
 
 import "fmt"
 
-func main () {
+func main() {
 	var name string
-	var age	int64
+	var age int64
 	var legal bool
 	var weight float32
 
 	name = "Anna"
-	age  = 20
-	legal = false
+	age = 20
+	legal = true
 	weight = 70.12
 
 	// Here goes your code
-	fmt.Printf("...")
+	fmt.Printf("My name is %s, I am %d years old, I am legal: %t, and I weigh %.2f kg.\n", name, age, legal, weight)
 }
