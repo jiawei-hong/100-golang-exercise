@@ -9,7 +9,12 @@ package main
 
 import "fmt"
 
-func main () {
+func main() {
 	// Here goes your code
-	fmt.Printf("...")
+	var username, surname string
+	fmt.Print("Enter your name: ")
+	fmt.Scanln(&username)
+	fmt.Print("Enter your surname: ")
+	fmt.Scanln(&surname)
+	fmt.Printf("Hello, %s %s!\n", username, surname)
 }
