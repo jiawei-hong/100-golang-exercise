@@ -3,8 +3,12 @@
 
 package main
 
+import "fmt"
+
 // import "fmt"
 
-func main () {
+func main() {
 	// Here goes your code
+	fmt.Println("My name is Jiawei")
+	fmt.Println("My address is 123 Main Street")
 }
