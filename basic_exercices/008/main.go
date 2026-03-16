@@ -6,5 +6,8 @@ import "fmt"
 
 func main () {
 	// Here goes your code
-	fmt.Printf("...")
+	names := [5]string{"Allen", "Jaspter"}
+	for _, v := range names {
+		fmt.Println(v)
+}
 }
