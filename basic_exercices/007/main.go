@@ -10,4 +10,6 @@ func main () {
 	// Here goes your code
 	var string1 string
 	// ...
+	string1 = "test"
+        fmt.Println(string1[0])
 }
